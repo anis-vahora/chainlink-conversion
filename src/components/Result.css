@@ -1,0 +1,28 @@
+.result-display-container {
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  label {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 32px !important;
+    outline: none;
+    width: 150px; /* Adjust width as needed */
+    transition: border-color 0.3s;
+  }
+  
+  input:hover,
+  input:focus {
+    border-color: #3498db;
+  }
+  
